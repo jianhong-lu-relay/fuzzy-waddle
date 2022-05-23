@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "R Notebook - j lu"
 output: html_document
 ---
  
@@ -15,7 +15,7 @@ data viz
 
 library(ggplot2)
 
-ggplot(adae) +
+ggplot(adae) +  
  aes(x = SEX, y = AGE) +
  geom_boxplot(shape = "circle", fill = "#112446") +
  theme_minimal() +
